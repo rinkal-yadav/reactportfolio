@@ -56,9 +56,9 @@ function Resume() {
                         <div className="banner4-imgs">
                             <div className="banner4-img-box"><img className="banner4-img" src={resumeboy} alt=""/></div>
                             <div className="banner4-img-content">
-                                <a href=""><i className="fab fa-facebook "></i></a>
-                                <a href=""><i className="fab fa-linkedin size linkedin"></i></a>
-                                <a href=""><i className="fab fa-github"></i></a>
+                                <a href="www.facebook.com"><i className="fab fa-facebook "></i></a>
+                                <a href="www.linkedin.com"><i className="fab fa-linkedin size linkedin"></i></a>
+                                <a href="www.github.com"><i className="fab fa-github"></i></a>
 
                             </div>
                         </div>

@@ -16,7 +16,7 @@ function Home() {
       <Banner2/>
       <Banner3/>
       <Resume/>
-      <Aboutme/>
+      {/* <Aboutme/> */}
       <ContactForm/>
       <Footer/>
     </div>

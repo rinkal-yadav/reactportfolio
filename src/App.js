@@ -1,8 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './Home';
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import Aboutme from './Component/Aboutme';
+import Resume from './Component/Resume';
+import ContactForm from './Component/ContactForm';
 
 function App() {
   return (
@@ -10,11 +11,11 @@ function App() {
       <Router>
       <Home/>
         <Routes>
-          <Route path='/home' element={''}/>
-          <Route path='/about' element={''}/>
-          <Route path='/portfolio' element={''}/>
-          <Route path='/resume' element={''}/>
-          <Route path='/contact' element={''}/>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/about' element={<Aboutme/>}/>
+          <Route path='/portfolio' element={<Resume/>}/>
+          <Route path='/resume' element={<Resume/>}/>
+          <Route path='/contact' element={<ContactForm/>}/>
 
         </Routes>
       </Router>

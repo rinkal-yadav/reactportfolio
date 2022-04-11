@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import profile1 from '../img/profile1.png'
 import profile2 from '../img/profile2.png'
 import profile3 from '../img/profile3.png'
@@ -65,7 +66,7 @@ function Aboutme() {
                         </div>
                     </div>
                 </div>
-                <div className="view-more"><a className="headLink" href=""><p className=" center3">View more Testimonilas →</p></a></div>
+                <div className="view-more"><Link className="headLink" ><p className=" center3">View more Testimonilas →</p></Link></div>
 
             </div>
         </div>
